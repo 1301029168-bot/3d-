@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;950&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    background-color: #fff1f2; /* bg-rose-50 matching theme perfectly */
+    font-family: var(--font-sans);
+    color: #1e293b;
+  }
+}
+
+/* Elegant shadow utilities for Sleek Interface */
+.sleek-shadow-card {
+  box-shadow: 0 10px 30px -10px rgba(244, 63, 94, 0.08), 0 1px 3px rgba(244, 63, 94, 0.02);
+}
+
+.sleek-shadow-interactive {
+  box-shadow: 0 20px 40px -15px rgba(244, 63, 94, 0.12);
+}
+
+/* Cute micro keyframe animations */
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+

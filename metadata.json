@@ -1,0 +1,6 @@
+{
+  "name": "UV 3D 浮雕定制工坊",
+  "description": "专注定制家里猫猫狗狗画作的3D立体浮雕冰箱贴。支持宠物卡通照片自动智能浮雕分层、水晶光油实物效果展示与冰箱贴底胚在线拼接下单。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
